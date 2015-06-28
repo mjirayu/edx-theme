@@ -1,6 +1,7 @@
 ## mako
 <%! from django.core.urlresolvers import reverse %>
 <%namespace name='static' file='/static_content.html'/>
+<link rel="stylesheet" href="${static.url('themes/edx-theme/css/vendor/custom.css')}">
 <%! from datetime import datetime %>
 <%! from pytz import UTC %>
 
