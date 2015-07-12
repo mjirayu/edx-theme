@@ -1,0 +1,34 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+footer {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto; }
+  footer:after {
+    content: "";
+    display: table;
+    clear: both; }
+  footer .colophon {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    footer .colophon:last-child {
+      margin-right: 0; }
+    footer .colophon .sit-kmutt {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      footer .colophon .sit-kmutt:last-child {
+        margin-right: 0; }
+    footer .colophon .nav-colophon {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 74.41059%; }
+      footer .colophon .nav-colophon:last-child {
+        margin-right: 0; }
