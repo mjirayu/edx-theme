@@ -6,12 +6,32 @@ footer{
   @include outer-container;
 
   .colophon {
+    margin-top: 1.5em;
     @include span-columns(12);
     .sit-kmutt{
-      @include span-columns(3 of 12);
+      margin-top: 1em;
+      @include span-columns(3.5 of 12);
     }
-    .nav-colophon{
-      @include span-columns(9 of 12);
+    .nav-colophon-1{
+      @include span-columns(2.5 of 12);
+      line-height: 30px;
+      li a{
+        color: #C9C7C7;
+      }
+    }
+    .nav-colophon-2{
+      @include span-columns(2.5 of 12);
+      line-height: 30px;
+      li a{
+        color: #C9C7C7;
+      }
+    }
+    .nav-colophon-3{
+      @include span-columns(3.5 of 12);
+      p {
+        color: #C9C7C7;
+        line-height: 30px;
+      }
     }
   }
 }

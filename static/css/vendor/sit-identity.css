@@ -12,6 +12,7 @@ footer {
     display: table;
     clear: both; }
   footer .colophon {
+    margin-top: 1.5em;
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -19,16 +20,40 @@ footer {
     footer .colophon:last-child {
       margin-right: 0; }
     footer .colophon .sit-kmutt {
+      margin-top: 1em;
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 23.23176%; }
+      width: 27.49666%; }
       footer .colophon .sit-kmutt:last-child {
         margin-right: 0; }
-    footer .colophon .nav-colophon {
+    footer .colophon .nav-colophon-1 {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 74.41059%; }
-      footer .colophon .nav-colophon:last-child {
+      width: 18.96686%;
+      line-height: 30px; }
+      footer .colophon .nav-colophon-1:last-child {
         margin-right: 0; }
+      footer .colophon .nav-colophon-1 li a {
+        color: #C9C7C7; }
+    footer .colophon .nav-colophon-2 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 18.96686%;
+      line-height: 30px; }
+      footer .colophon .nav-colophon-2:last-child {
+        margin-right: 0; }
+      footer .colophon .nav-colophon-2 li a {
+        color: #C9C7C7; }
+    footer .colophon .nav-colophon-3 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 27.49666%; }
+      footer .colophon .nav-colophon-3:last-child {
+        margin-right: 0; }
+      footer .colophon .nav-colophon-3 p {
+        color: #C9C7C7;
+        line-height: 30px; }

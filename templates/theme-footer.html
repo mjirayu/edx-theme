@@ -11,20 +11,28 @@
       <div class="sit-kmutt">
         <img src="${static.url('themes/edx-theme/images/sit_kmutt_logo.png')}" alt="SIT KMUTT">
       </div>
-      <nav class="nav-colophon">
+      <nav class="nav-colophon-1">
         <ol>
-          <li><a href="${reverse('tos')}">Terms of Service</a></li>
-          <li><a href="${reverse('tos')}#privacy">Privacy Policy</a></li>
-          <li><a href="${reverse('tos')}#honor">Honor Code</a></li>
-          <li><a href="${reverse('tos')}#copyright">Copyright</a></li>
-          <li><a href="${reverse('about')}#careers">Careers</a></li>
-          <li><a href="${reverse('about')}#contact">Contact</a></li>
-          <li><a href="${marketing_link('FAQ')}">Help</a></li>
+          <li><a href="${reverse('tos')}">Student</a></li>
+          <li><a href="${reverse('tos')}#privacy">Staff</a></li>
+          <li><a href="${reverse('tos')}#honor">Instructor</a></li>
         </ol>
       </nav>
-    </div>
-    <div class="references">
-      <span>Built on <a href="http://code.edx.org">OpenEdX</a>.</span>
+      <nav class="nav-colophon-2">
+        <ol>
+          <li><a href="${reverse('tos')}">About</a></li>
+          <li><a href="${reverse('tos')}#privacy">Contact Us</a></li>
+          <li><a href="${reverse('tos')}#honor">FAQ</a></li>
+          <li><a href="${reverse('tos')}#honor">Term and Service</a></li>
+        </ol>
+      </nav>
+      <nav class="nav-colophon-3">
+        <p>
+          School of Information Technology,
+          126 Pracha Uthit Rd., Bang Mod, Thung Khru, Bangkok, Thailand 10140
+          Tel. +66 2470 9850
+        </p>
+      </nav>
     </div>
   </footer>
 </div>
