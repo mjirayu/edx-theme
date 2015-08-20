@@ -7,7 +7,7 @@ gulp.task('sass', function () {
   gulp.src('./static/sass/*.scss')
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(sass.sync().on('error', sass.logError))
-    .pipe(gulp.dest('./static/css/vendor'));
+    .pipe(gulp.dest('./static/css/vendor/'));
 });
 
 gulp.task('sass:watch', function () {
