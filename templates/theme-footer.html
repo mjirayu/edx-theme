@@ -1,5 +1,8 @@
 ## mako
-<%! from django.core.urlresolvers import reverse %>
+<%!
+from django.core.urlresolvers import reverse
+from django.utils.translation import ugettext as _
+%>
 <%namespace name='static' file='/static_content.html'/>
 <link rel="stylesheet" href="${static.url('themes/edx-theme/css/vendor/sit-identity.css')}">
 <%! from datetime import datetime %>
@@ -16,7 +19,7 @@
       </div>
       <nav class="nav-colophon-1">
         <ol>
-          <li>Follow Us</li>
+          <li>${_("Follow Us")}</li>
           <li><a href="${reverse('tos')}">Facebook</a></li>
           <li><a href="${reverse('tos')}">Twitter</a></li>
           <li><a href="${reverse('tos')}">Google+</a></li>
@@ -24,18 +27,18 @@
       </nav>
       <nav class="nav-colophon-2">
         <ol>
-          <li>About SIT ACADEMY</li>
-          <li><a href="${reverse('about')}">About Us</a></li>
-          <li><a href="${reverse('contact')}">Contact Us</a></li>
-          <li><a href="${reverse('faq')}">FAQs</a></li>
+          <li>${_("About SIT ACADEMY")}</li>
+          <li><a href="${reverse('about')}">${_("About Us")}</a></li>
+          <li><a href="${reverse('contact')}">${_("Contact Us")}</a></li>
+          <li><a href="${reverse('faq')}">${_("FAQs")}</a></li>
         </ol>
       </nav>
       <nav class="nav-colophon-3">
         <ol>
-          <li>Legal Notice</li>
-          <li><a href="${reverse('honor')}">Code of Honor</a></li>
-          <li><a href="${reverse('tos')}">Terms of Service</a></li>
-          <li><a href="${reverse('privacy')}">Privacy Policy</a></li>
+          <li>${_("Legal Notice")}</li>
+          <li><a href="${reverse('honor')}">${_("Code of Honor")}</a></li>
+          <li><a href="${reverse('tos')}">${_("Terms of Service")}</a></li>
+          <li><a href="${reverse('privacy')}">${_("Privacy Policy")}</a></li>
         </ol>
       </nav>
     </div>
